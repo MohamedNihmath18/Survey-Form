@@ -1,0 +1,37 @@
+.main{
+    margin-bottom: 20px;
+}
+
+.rating {
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    float: start;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.rating label::after {
+    content: '\2605';
+    font-size: 2em;
+}
+
+
+.rating input:checked ~ label,
+.rating input:checked ~ label ~ label {
+    color: #fdd835; /* Change this color to the active star color */
+}
+
+
+
+.main2{
+    margin-top: 20px;;
+     
+}
+
+ 
+ 
